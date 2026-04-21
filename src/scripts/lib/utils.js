@@ -64,6 +64,11 @@ module.exports.capabilityMap = {
     minFwMajor: 0,
     minFwMinor: 0
   },
+  COMPASS: {
+    platforms: ['aplite', 'basalt', 'chalk', 'emery', 'flint', 'gabbro'],
+    minFwMajor: 0,
+    minFwMinor: 0
+  },
   MICROPHONE: {
     platforms: ['basalt', 'chalk', 'diorite', 'emery', 'flint', 'gabbro'],
     minFwMajor: 0,

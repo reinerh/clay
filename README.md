@@ -668,6 +668,7 @@ Below is the full list of capabilities
 | PLATFORM_GABBRO | Running on Core Time Round 2 |
 | BW | Running on hardware that supports only black and white. |
 | COLOR | Running on hardware that supports 64 colors. |
+| COMPASS | Running on hardware that includes a compass. |
 | MICROPHONE | Running on hardware that includes a microphone. |
 | SMARTSTRAP | Running on hardware that includes a smartstrap connector. |
 | SMARTSTRAP_POWER | Running on hardware that includes a powered smartstrap connector. |
