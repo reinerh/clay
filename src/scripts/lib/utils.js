@@ -84,6 +84,11 @@ module.exports.capabilityMap = {
     minFwMajor: 3,
     minFwMinor: 4
   },
+  SPEAKER: {
+    platforms: ['emery', 'flint'],
+    minFwMajor: 4,
+    minFwMinor: 9
+  },
   HEALTH: {
     platforms: ['basalt', 'chalk', 'diorite', 'emery', 'flint', 'gabbro'],
     minFwMajor: 3,

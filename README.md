@@ -672,6 +672,7 @@ Below is the full list of capabilities
 | MICROPHONE | Running on hardware that includes a microphone. |
 | SMARTSTRAP | Running on hardware that includes a smartstrap connector. |
 | SMARTSTRAP_POWER | Running on hardware that includes a powered smartstrap connector. |
+| SPEAKER | Running on hardware that includes a speaker. |
 | HEALTH | Running on hardware that supports Pebble Health and the HealthService API. |
 | RECT | Running on hardware with a rectangular display. |
 | ROUND | Running on hardware with a round display. |

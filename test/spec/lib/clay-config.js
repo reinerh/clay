@@ -82,6 +82,7 @@ describe('ClayConfig', function() {
     testCapabilities('aplite', 2, 9, ['MICROPHONE'], 0);
     testCapabilities('aplite', 2, 9, ['SMARTSTRAP'], 0);
     testCapabilities('aplite', 2, 9, ['SMARTSTRAP_POWER'], 0);
+    testCapabilities('aplite', 2, 9, ['SPEAKER'], 0);
     testCapabilities('aplite', 2, 9, ['HEALTH'], 0);
     testCapabilities('aplite', 2, 9, ['RECT'], 1);
     testCapabilities('aplite', 2, 9, ['ROUND'], 0);
@@ -105,6 +106,7 @@ describe('ClayConfig', function() {
     testCapabilities('aplite', 3, 4, ['SMARTSTRAP'], 0);
     testCapabilities('aplite', 3, 3, ['SMARTSTRAP'], 0);
     testCapabilities('aplite', 3, 10, ['SMARTSTRAP_POWER'], 0);
+    testCapabilities('aplite', 3, 10, ['SPEAKER'], 0);
     testCapabilities('aplite', 3, 10, ['HEALTH'], 0);
     testCapabilities('aplite', 3, 9, ['HEALTH'], 0);
     testCapabilities('aplite', 3, 10, ['RECT'], 1);
@@ -131,6 +133,7 @@ describe('ClayConfig', function() {
     testCapabilities('basalt', 3, 10, ['SMARTSTRAP_POWER'], 1);
     testCapabilities('basalt', 3, 4, ['SMARTSTRAP_POWER'], 1);
     testCapabilities('basalt', 3, 3, ['SMARTSTRAP_POWER'], 0);
+    testCapabilities('basalt', 3, 3, ['SPEAKER'], 0);
     testCapabilities('basalt', 3, 10, ['HEALTH'], 1);
     testCapabilities('basalt', 3, 9, ['HEALTH'], 0);
     testCapabilities('basalt', 3, 10, ['RECT'], 1);
@@ -157,6 +160,7 @@ describe('ClayConfig', function() {
     testCapabilities('chalk', 3, 10, ['SMARTSTRAP_POWER'], 1);
     testCapabilities('chalk', 3, 4, ['SMARTSTRAP_POWER'], 1);
     testCapabilities('chalk', 3, 3, ['SMARTSTRAP_POWER'], 0);
+    testCapabilities('chalk', 3, 3, ['SPEAKER'], 0);
     testCapabilities('chalk', 3, 10, ['HEALTH'], 1);
     testCapabilities('chalk', 3, 9, ['HEALTH'], 0);
     testCapabilities('chalk', 3, 10, ['RECT'], 0);
@@ -183,6 +187,7 @@ describe('ClayConfig', function() {
     testCapabilities('diorite', 3, 10, ['SMARTSTRAP_POWER'], 0);
     testCapabilities('diorite', 3, 4, ['SMARTSTRAP_POWER'], 0);
     testCapabilities('diorite', 3, 3, ['SMARTSTRAP_POWER'], 0);
+    testCapabilities('diorite', 3, 3, ['SPEAKER'], 0);
     testCapabilities('diorite', 3, 10, ['HEALTH'], 1);
     testCapabilities('diorite', 3, 9, ['HEALTH'], 0);
     testCapabilities('diorite', 3, 10, ['RECT'], 1);
@@ -209,6 +214,7 @@ describe('ClayConfig', function() {
     testCapabilities('emery', 3, 10, ['SMARTSTRAP_POWER'], 1);
     testCapabilities('emery', 3, 4, ['SMARTSTRAP_POWER'], 1);
     testCapabilities('emery', 3, 3, ['SMARTSTRAP_POWER'], 0);
+    testCapabilities('emery', 4, 10, ['SPEAKER'], 1);
     testCapabilities('emery', 3, 10, ['HEALTH'], 1);
     testCapabilities('emery', 3, 9, ['HEALTH'], 0);
     testCapabilities('emery', 3, 10, ['RECT'], 1);
@@ -235,6 +241,7 @@ describe('ClayConfig', function() {
     testCapabilities('flint', 3, 10, ['SMARTSTRAP_POWER'], 0);
     testCapabilities('flint', 3, 4, ['SMARTSTRAP_POWER'], 0);
     testCapabilities('flint', 3, 3, ['SMARTSTRAP_POWER'], 0);
+    testCapabilities('flint', 4, 10, ['SPEAKER'], 1);
     testCapabilities('flint', 3, 10, ['HEALTH'], 1);
     testCapabilities('flint', 3, 9, ['HEALTH'], 0);
     testCapabilities('flint', 3, 10, ['RECT'], 1);
@@ -257,6 +264,7 @@ describe('ClayConfig', function() {
     testCapabilities('gabbro', 3, 10, ['MICROPHONE'], 1);
     testCapabilities('gabbro', 3, 10, ['SMARTSTRAP'], 0);
     testCapabilities('gabbro', 3, 10, ['SMARTSTRAP_POWER'], 0);
+    testCapabilities('gabbro', 3, 10, ['SPEAKER'], 0);
     testCapabilities('gabbro', 3, 10, ['HEALTH'], 1);
     testCapabilities('gabbro', 3, 10, ['RECT'], 0);
     testCapabilities('gabbro', 3, 10, ['ROUND'], 1);
